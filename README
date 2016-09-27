@@ -1,0 +1,6 @@
+## USAGE
+
+git clone https://github.com/hexteto/citest.git
+cd citest
+docker build -t demo:0.1.1
+docker run -p host_port:container_port -v /your_site_content/:/var/www/html -d image:tag
