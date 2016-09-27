@@ -6,4 +6,3 @@ RUN git clone https://github.com/hexteto/sitedemo
 WORKDIR /tmp/sitedemo
 RUN cp -r * /var/www
 RUN rm -rf /tmp/sitedemo
-RUN apt-get purge git
