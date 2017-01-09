@@ -1,9 +1,7 @@
 <html>
 <body>
 <h1>
-<?php
-echo date("Y-m-d");
-?>
+  website on VM001 <?php echo date("Y-m-d"); ?>
 </h1>
 </body>
 
